@@ -1,7 +1,7 @@
 # CustomBox for BDSX
 ```ts
-import { command } from "bdsx/command";
 import { CustomBox } from "@bdsx/custom-box";
+import { command } from "bdsx/command";
 import { ItemStack } from "bdsx/bds/inventory";
 import { PlayerCommandSelector } from "bdsx/bds/command";
 import { int32_t } from "bdsx/nativetype";
@@ -11,7 +11,6 @@ command.register("box", "Give special box to player.")
     for (const player of p.target.newResults(o)) {
         if (player.isPlayer()) {
 
-            //Create special custom box
             const box = new CustomBox();
             box.setName("§l§6SpecialBox");
             box.setLores(["This is SpecialBox", "This Box for You :D"]);
