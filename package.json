@@ -1,0 +1,13 @@
+{
+  "name": "@bdsx/custom-box",
+  "version": "1.0.0",
+  "description": "This plugin for BDSX!",
+  "main": "index.js",
+  "keywords": [ "custom-box", "plugin", "BDSX" ],
+  "author": "ItzCandra23",
+  "license": "ISC",
+  "bdsxPlugin": true,
+  "devDependencies": {
+    "bdsx": "file:../bdsx"
+  }
+}
